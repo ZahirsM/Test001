@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D7CCCB"
+    tools:context=".Nothing_Was_The_Same">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginRight="-5dp"
+        app:srcCompat="@drawable/nwts" />
+
+    <TextView
+        android:id="@+id/tvNWTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text='Nothing Was The Same is currently in discussion of being his best work. Arugably stating this as an opinion is a no brainer why this album is on this list. NWTS showed the world he is not only here now but he is to stay! This Album includes "Pound Cake" ft. Jay-Z, "Come Thru", "From Time" ft. Jhene Aiko and "Tuscan Leather" just to name a few. Is this album top two and not two?' />
+
+    <EditText
+        android:id="@+id/etHintNWTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="100dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Top two or Not two?"
+        android:inputType="textPersonName" />
+</LinearLayout>
